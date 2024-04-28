@@ -12,10 +12,13 @@
 body {
   margin: 0;
   display: flex;
-  place-items: center;
+  /* place-items: center; */
   min-width: 320px;
   min-height: 100vh;
   color: #0b0c0b;
+  background-color: rgb(225, 222, 227);
+  height: 100%;
+  padding: 0;
 }
 
 h1,

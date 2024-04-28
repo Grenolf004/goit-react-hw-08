@@ -1,0 +1,43 @@
+.wrapper {
+    display: flex;
+    justify-content: flex-start;
+    background-color: transparent;
+    border: 1px solid #433a46ab;
+    color: #00132C;
+    font-weight: 700;
+    line-height: 24px;
+    padding: 16px 23px;
+    position: relative;
+    text-decoration: none;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+.title {
+    font-size: 36px;
+    text-transform: uppercase;
+    margin: auto;
+}
+
+.image {
+    background-image: url(../../img/handsome-modern-redhead-man-talking-phone-calling-friend-smiling-holding-smartphone-near-ear-looking-aside-standing-against-white-background.jpg);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-bottom: 500px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.wrapper:before {
+    background-color: #387caa;
+    content: "";
+    height: calc(100% + 3px);
+    position: absolute;
+    right: -15px;
+    top: -19px;
+    transition: background-color 300ms ease-in;
+    width: 100%;
+    z-index: -1;
+    border-radius: 20px;
+}
